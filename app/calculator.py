@@ -1,8 +1,8 @@
-def add(a, b) -> int:
+def add(a: int, b: int) -> int:
     return a + b
 
 
-def dev(a, b) -> float:
+def dev(a: int, b: int) -> float:
     if b == 0:
         raise ValueError("Деление на ноль")
     return a / b
